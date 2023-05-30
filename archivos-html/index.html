@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tienda online de productos electrodomesticos">
+    <title>Electro Oficial</title>
+    <link rel="shortcut icon" href="../image/icons/tecnologico.png" type="image/x-icon">
+    <link rel="stylesheet" href="../stylos-css/style.css">
+    <link rel="stylesheet" href="../stylos-css/table.css">
+    <link rel="stylesheet" href="../stylos-css/destok.css">
+    <link rel="stylesheet" href="../stylos-css/destok-L.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+    <!-- header -->
+
+    <header class="header">
+
+        <!-- logo -->
+        <div class="header-logo">
+            <p class="header-logo__p">Electro</p>
+            <img class="header-logo__img" src="../image/icons/tecnologico.png" alt="fondo-de-atardecer">
+        </div>
+
+        <!-- search -->
+        <div class="header-search">
+            <input class="header-search__input" type="text" placeholder="Search">
+        </div>
+
+         <!-- darkmode -->
+         <div class="header-darkmode">
+            <div class="darkmode darkmode2">
+                <div class="darkmode-fuction"></div>
+            </div>
+        </div>
+    
+        <!-- nav -->
+        <nav class="header-nav">
+            <ul class="header-nav__ul">
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">register</a></li>
+                <li><a href="">products</a></li>
+            </ul>
+            <a href="javascript:abrir()"> 
+             <div class="header-nav__logomenu">
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+            </a>
+
+            <!-- navbar mobile -->
+
+            <div id="ventana" class="navbar">
+                <div class="navbar-link">
+                    <ul>
+                        <li><a href="">DarkMode</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">products</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-fuction">
+                    <a href=""><img src="../image/icons/usuario.png"  alt="usuario"></a>
+                    <div class="darkmode">
+                        <div class="darkmode-fuction"></div>
+                    </div>
+                </div>
+               <div class="logo-exit-navbar">
+                 <div class="logo-exit-navbar__circule">
+                    <a class="navbar-logo" href="javascript:cerrar()"> <img src="https://clipground.com/images/white-x-png-4.png" alt="logo de salir"></a>
+                 </div>
+               </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- introduccion a la pagina -->
+    <div class="introduccion">
+        <h1 class="introduccion-title">Welcome to electro</h1>
+        <ol class="introduccion-list">
+           <li><a href="">computadores</a></li>
+           <li><a href="">celulares</a></li>
+           <li><a href="">camaras</a></li>
+           <li><a href="">consolas de videojuego</a></li>
+           <li><a href="">accesorios</a></li>
+        </ol>
+     </div>
+
+    <!-- section #1 -->
+
+    <section class="sectionOne">
+        <div class="sectionOne-container">
+            <div class="sectionOne-container__introduccion">
+                <h2>Electro <img class="logo" src="../image/icons/tecnologico.png" alt="logo"></h2>
+                <p>Los mejores precios en productos y accesorios tecnologicos</p>
+                <span>lo puedes encontrar aqui.</span>
+                <img src="https://vignette.wikia.nocookie.net/zt2downloadlibrary/images/5/5c/American_Agave_(Felipe).png/revision/latest?cb=20160513184621" alt="penca">
+            </div>
+            <div class="sectionOne-container__images">
+                <p>DESCUBRELO</p>
+              <div class="images-slader"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section #2 -->
+
+    <section class="sectionTwo">
+        <div class="sectiontwo-container-grid">
+            <div class="sectiontwo-container-grid__contentOne">
+                <p>Gran variedad de telefonos celulares <span>Marcas como iphone, samsung, xioami, motorola y huawuel a lo  mejores precios</span></p>
+                <img src="https://images.samsung.com/is/image/samsung/p5/levant/smartphones/feature_benefit_kv_galaxy_s10plus_prism_white.png?$ORIGIN_PNG$" alt="celular samsung de exposicion">
+                <button><a href="#">Ver</a></button>
+            </div>
+            <div class="sectiontwo-container-grid__contentTwo">
+                <img src="http://www.infofotografi.com/blog/wp-content/uploads/2016/01/nikon-d550.png" alt="camara de exposicion profesional">
+                <p>Camaras profesionales de alta calidad <span>variedad en estilos, marcas y precios¡</span></p>
+                <button><a href="#">Ver</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section recomendate -->
+
+    <section class="sectionRecomendate">
+        <div class="sectionRecomendate-title">RECOMENDATE</div>
+        <!-- cards -->
+        <div class="sectionRecomendate-cards">
+               <img class="imgCard prevCard" src="../image/icons/noun-left-2358231.svg" alt="left">
+               <div class="cardscontainer">
+                    <div class="card">
+                        <img src="https://rauvang.com/data/Product/iphone14promax-purple.htm_1662614063.png" alt="iphone 14">
+                        <p class="card-title">iphone 14 pro</p>
+                        <span class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$7,000,00 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://tecvariedades.com/wp-content/uploads/2022/07/Redmi-Note-11s.png" alt="redmi node 11s">
+                        <p class="card-title">redmi node 11s</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$3,500,00 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/static.spdigital.cl/img/products/new_web/1513615236997-GT600-Red-1.png" alt="silla gamer">
+                        <p class="card-title">Silla gamer</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$200,000 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://media.croma.com/image/upload/v1664412955/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256605_0_elrzey.png" alt="MackBook Pro 13">
+                        <p class="card-title">MackBook Pro 13</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$7,850,00 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://mvelectronica.com/storage/app/GAMER/DIADEMAS/AUD-555/3.png" alt="Audifonos Gamer Kotion">
+                        <p class="card-title">Audifonos Gamer Kotion</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$70,000 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dwc827f61f/images/PS5DUALSENSEMB/PS5DUALSENSEMB.png" alt="control mando ps5">
+                        <p class="card-title">Control Mando ps5</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$100,000 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://rechargeelectronics.com/wp-content/uploads/2020/06/ipad-pro-11-2020-1.png" alt="ipad pro">
+                        <p class="card-title">Ipad pro 11</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$5,300.000 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://media.aws.alkosto.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/captura_de_pantalla_2014-05-21_a_la_s_9.01.08_copia.png" alt="camara profesional">
+                        <p class="card-title">Camara CANON EOS</p>
+                        <span  class="card-span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium?</span>
+                        <span class="card-precio">$4,200,00 COP</span>
+                        <button type="button">agregar al carrito</button>
+                    </div>
+               </div>
+               <img class="imgCard nextCard" src="../image/icons/noun-arrow-3134095.svg" alt="arrow">
+            </div>
+        </div>
+    </section>
+
+    <!-- section video juegos -->
+    
+    <section class="sectionThree">
+        <section class="sectionThree-sectionOption1">
+            <div class="sectionThree-sectionOption1__introduccion"> 
+                <p>Arma tu pc gamer con los mejores componentes en el mercado¡.</p>
+                <button>Ver</button>
+            </div>
+            <div class="sectionThree-sectionOption1__image">
+                <img src="https://freepngimg.com/thumb/computer/32741-5-gaming-computer-image.png" alt="pc gamer">
+            </div>
+        </section>
+        <section class="sectionThree-sectionOption2">
+            <div class="sectionThree-sectionOption2__introduccion"> 
+                <p>Los mejores videojuegos para disfrutar en familia y amigos</p>
+                <button>Ver</button>
+            </div>
+            <div class="sectionThree-sectionOption2__image">
+                <img src="https://media.playstation.com/is/image/SCEA/playstation-4-pro-vertical-product-shot-01-us-07sep16?$native_t$" alt="ps4 pro">
+            </div>
+        </section>
+    </section>
+
+    <!-- section de accesorios -->
+
+    <section class="sectionAccesorios">
+        <div class="sectionAccesorios-title">
+            Accesorios
+        </div>
+        <div class="sectionAccesorios-buttom">
+            <button>Ver</button>
+        </div>
+    </section>
+ 
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-grid__list1">
+                <ol>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                </ol>
+            </div>
+            <div class="footer-grid__list2">
+                <ol>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                    <li><a href="">bsmvhs</a></li>
+                </ol>
+            </div>
+            <div class="footer-grid__contact">
+                <div class="contact-title">contact</div>
+                <div class="contact-social">
+                    <div class="contact contactitem">
+                        <a href=""><img src="../image/icons/instagram (1).png" alt="intasgram"> <br></a>
+                        Instagram
+                    </div>
+                    <div class="contact contactitem">
+                       <a href=""> <img src="../image/icons/facbook foter.png" alt="Facebook"> </a>
+                        Facebook
+                    </div>
+                    <div class="contact contactitem">
+                        <a href=""><img src="../image/icons/waasa footer.png" alt="WhatsApp"></a>
+                        WhatsApp
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="end">
+        By pablo ocampo
+    </div>
+
+
+    <!-- carrito de compras -->
+    <div class="carrito-float">
+        <div class="carrito-float__cantidad">
+            <strong>0</strong>
+        </div>
+        <img src="../image/icons/carrito-de-compras.png" alt=" carrito de compras">
+    </div>
+
+
+    <!-- logo of whatsapp flotant -->
+    <div class="contact-float">
+        <img src="../image/icons/waasa footer.png" alt="whatsapp float contac">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="../script.js"></script>
+</body>
+</html>
